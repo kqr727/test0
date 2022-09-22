@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://kqr727.github.io/test0/annotations/a92dfb9988f5749f95df21621337506c.json", "https://kqr727.github.io/test0/annotations/6b62854567457cb3f64768613df9ab0b.json" ],
+  "otherContent" : [ "https://kqr727.github.io/test0/annotations/a92dfb9988f5749f95df21621337506c.json", "https://kqr727.github.io/test0/annotations/6b62854567457cb3f64768613df9ab0b.json", "https://kqr727.github.io/test0/annotations/pantheon.json" ],
   "@id" : "https://kqr727.github.io/test0/annotations/collection.json",
   "label" : "All annotations loaded in kqr727/test0 project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
