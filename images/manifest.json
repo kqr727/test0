@@ -1,0 +1,66 @@
+{
+  "id" : "https://kqr727.github.io/test0/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in kqr727/test0 project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 3264,
+    "id" : "https://kqr727.github.io/test0/images/kk/canvas/",
+    "label" : {
+      "none" : [ "kk" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://kqr727.github.io/test0/images/kk/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://kqr727.github.io/test0/images/kk/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 102,
+              "height" : 77
+            }, {
+              "width" : 204,
+              "height" : 153
+            }, {
+              "width" : 408,
+              "height" : 306
+            }, {
+              "width" : 816,
+              "height" : 612
+            }, {
+              "width" : 1632,
+              "height" : 1224
+            }, {
+              "width" : 3264,
+              "height" : 2448
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3264,
+            "@id" : "https://kqr727.github.io/test0/images/kk",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2448
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3264,
+          "id" : "https://kqr727.github.io/test0/images/kk/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2448
+        },
+        "target" : "https://kqr727.github.io/test0/images/kk/canvas/"
+      } ]
+    } ],
+    "height" : 2448
+  } ]
+}
