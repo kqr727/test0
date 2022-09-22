@@ -3,6 +3,11 @@
   "@id" : "https://kqr727.github.io/test0/manifests/manifest.json",
   "@type" : "sc:Manifest",
   "label" : "[Click to edit label]",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1240244679/107971018484556936188/manifests/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "[Click to edit description]",
@@ -41,6 +46,11 @@
           "width" : 3264
         },
         "on" : "http://2d85896f-c782-401d-89c6-c115e3c1ab5b"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://kqr727.github.io/test0/annotations/pantheon.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
@@ -119,6 +129,11 @@
           "width" : 4032
         },
         "on" : "http://d56412a2-f1c6-40a8-ac21-bfbb1c772952"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://kqr727.github.io/test0/annotations/rabbit.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     } ]
