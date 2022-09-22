@@ -1,0 +1,76 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "pantheon",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>pantheon</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/107971018484556936188",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-09-22T04:28:07",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1663820887987",
+    "dcterms:modified" : "2022-09-22T04:28:07",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://kqr727.github.io/test0/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=285,376,2269,806"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M285.11111,375.77778h1134.33333v0h1134.33333v402.95556v402.95556h-1134.33333h-1134.33333v-402.95556z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_5b9295ea-4708-4cc2-b43e-a537c7f3735b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://2d85896f-c782-401d-89c6-c115e3c1ab5b"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "rome",
+      "@type" : "oa:Tag",
+      "chars" : "rome"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "rome",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>rome</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/107971018484556936188",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-09-22T04:28:26",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1663820906622",
+    "dcterms:modified" : "2022-09-22T04:28:26",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://kqr727.github.io/test0/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=67,1373,768,371"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M179.43976,1426.96425c70.905,-31.1719 170.92798,-54.38456 271.43568,-54.35683v0v0c100.50769,0.02773 188.06676,21.7428 271.43568,54.35683c83.36892,32.61403 115.77336,82.3115 112.43234,131.22899c-3.34102,48.91748 -42.42751,97.05497 -112.43234,131.22899c-70.00482,34.17402 -170.92798,54.38456 -271.43568,54.35683c-100.50769,-0.02773 -200.59992,-20.29374 -271.43568,-54.35683c-70.83575,-34.06308 -112.41503,-81.92324 -112.43234,-131.22899c-0.01731,-49.30575 41.52734,-100.05709 112.43234,-131.22899z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_b33370fd-af91-497f-845e-5b4704264853\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://2d85896f-c782-401d-89c6-c115e3c1ab5b"
+    } ]
+  } ],
+  "@id" : "https://kqr727.github.io/test0/annotations/6b62854567457cb3f64768613df9ab0b.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
