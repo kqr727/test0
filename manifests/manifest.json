@@ -1,0 +1,127 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://kqr727.github.io/test0/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://6ad1db7d-cc9d-4df2-9bd7-30aad3ab26d4",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://2d85896f-c782-401d-89c6-c115e3c1ab5b",
+      "@type" : "sc:Canvas",
+      "label" : "pantheon",
+      "height" : 2448,
+      "width" : 3264,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e9e596a9-8172-41bd-9346-1c2de086e58e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-6605_202209/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-6605_202209",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2448,
+          "width" : 3264
+        },
+        "on" : "http://2d85896f-c782-401d-89c6-c115e3c1ab5b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c0bf3bae-f6c4-48a1-9e5a-a927a35918e9",
+      "@type" : "sc:Canvas",
+      "label" : "amalfi",
+      "height" : 2448,
+      "width" : 3264,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0df55276-d0df-48c8-b2ef-6a63fe909b0a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/amalfi202209/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/amalfi202209",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2448,
+          "width" : 3264
+        },
+        "on" : "http://c0bf3bae-f6c4-48a1-9e5a-a927a35918e9"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://1820c193-0079-46ad-936f-8956fa6ac9e6",
+      "@type" : "sc:Canvas",
+      "label" : "sad sea",
+      "height" : 2915,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://722bd3f6-aceb-46c2-a2e9-878243bedd24",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-8194_202209/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-8194_202209",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2915,
+          "width" : 4032
+        },
+        "on" : "http://1820c193-0079-46ad-936f-8956fa6ac9e6"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://d56412a2-f1c6-40a8-ac21-bfbb1c772952",
+      "@type" : "sc:Canvas",
+      "label" : "rabbit family",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5e80de44-c5b2-4fcc-964c-fb86a43689ce",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-4714/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-4714",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://d56412a2-f1c6-40a8-ac21-bfbb1c772952"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
